@@ -1,3 +1,11 @@
+"""
+El propósito de este programa es que dado un número, el programa calcule una lista de todos los numeros primos antes y si incluye, tambien el numero dado
+Eduardo Caleb Castillo Llanas
+Daniel Maldonado Delgado
+Larisa Carolina Alvarez Gonzales
+Ximena Castro Flores
+03/Oct/25
+"""
 # Entradas
 numero = int(input("Introduzca un número: "))
 
