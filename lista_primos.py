@@ -1,15 +1,15 @@
-"""
-Inserta el encabezado aquí y escribe tu código abajo
-"""
-
-# Declaraciones
-CONSTANTE = valor
-
 # Entradas
-entrada = input()
+numero = int(input("Introduzca un número: "))
 
-# Proceso
+# Procesos
+def es_primo(n):
+    if n < 2:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
 
-
-# Salidas
-print(salida)
+for n in range(1, numero + 1):
+    if es_primo(n):
+        print(n, end=" ")
